@@ -1,0 +1,12 @@
+dbt_bootcamp_repo:
+  target: dev
+  outputs:
+    dev:
+      dataset: dbt_data_model_training
+      keyfile: /Users/alex.shaffer/.dbt/dbt-technical-training-aa7e08ae557c.json
+      method: service-account
+      priority: interactive
+      project: dbt-technical-training
+      threads: 1
+      timeout_seconds: 300
+      type: bigquery
